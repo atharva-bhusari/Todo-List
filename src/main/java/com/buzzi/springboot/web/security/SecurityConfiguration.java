@@ -12,8 +12,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	// Create User - buzzi/root
 	@Autowired
 	public void configureGlobalSecurity(AuthenticationManagerBuilder auth) throws Exception {
-		auth.inMemoryAuthentication().passwordEncoder(NoOpPasswordEncoder.getInstance()).withUser("buzzi")
-				.password("root").roles("USER", "ADMIN");
+		auth.inMemoryAuthentication().passwordEncoder(NoOpPasswordEncoder.getInstance()).withUser("user")
+				.password("user").roles("USER", "ADMIN");
 	}
 
 	@Override
