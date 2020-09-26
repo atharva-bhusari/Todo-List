@@ -5,4 +5,4 @@ To access type username = "user" password="user".
 
 ## There is just one user right now. So you can add dyanamically new users. This is very raw application. Need much of the work.
 
-You can view the website at https://spring-app-1.herokuapp.com/
+[Click here to access the website](https://spring-app-1.herokuapp.com/).
